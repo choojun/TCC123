@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.138
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U1_HelloWorld", "U1_HelloWorld\U1_HelloWorld.csproj", "{943E5B31-93FE-4694-8E2F-278652CF181D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U1_EventProcedures", "U1_EventProcedures\U1_EventProcedures.csproj", "{DCE62CFC-887F-4B91-9169-2F321654B06F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U1_ButtonControl", "U1_ButtonControl\U1_ButtonControl.csproj", "{F6ECAEFD-DC84-42DB-BCCC-F4B5C9C517FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U1_EventProcedures", "U1_EventProcedures\U1_EventProcedures.csproj", "{DCE62CFC-887F-4B91-9169-2F321654B06F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U1_HelloWorld", "U1_HelloWorld\U1_HelloWorld.csproj", "{943E5B31-93FE-4694-8E2F-278652CF181D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U1_LabelPicBoxControl", "U1_LabelPicBoxControl\U1_LabelPicBoxControl.csproj", "{6E3A2086-3473-4AAF-B2C3-1375EF4CE1A2}"
 EndProject
@@ -21,18 +21,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{943E5B31-93FE-4694-8E2F-278652CF181D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{943E5B31-93FE-4694-8E2F-278652CF181D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{943E5B31-93FE-4694-8E2F-278652CF181D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{943E5B31-93FE-4694-8E2F-278652CF181D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F6ECAEFD-DC84-42DB-BCCC-F4B5C9C517FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6ECAEFD-DC84-42DB-BCCC-F4B5C9C517FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6ECAEFD-DC84-42DB-BCCC-F4B5C9C517FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6ECAEFD-DC84-42DB-BCCC-F4B5C9C517FC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DCE62CFC-887F-4B91-9169-2F321654B06F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DCE62CFC-887F-4B91-9169-2F321654B06F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCE62CFC-887F-4B91-9169-2F321654B06F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCE62CFC-887F-4B91-9169-2F321654B06F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6ECAEFD-DC84-42DB-BCCC-F4B5C9C517FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6ECAEFD-DC84-42DB-BCCC-F4B5C9C517FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6ECAEFD-DC84-42DB-BCCC-F4B5C9C517FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6ECAEFD-DC84-42DB-BCCC-F4B5C9C517FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{943E5B31-93FE-4694-8E2F-278652CF181D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943E5B31-93FE-4694-8E2F-278652CF181D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943E5B31-93FE-4694-8E2F-278652CF181D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943E5B31-93FE-4694-8E2F-278652CF181D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6E3A2086-3473-4AAF-B2C3-1375EF4CE1A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6E3A2086-3473-4AAF-B2C3-1375EF4CE1A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E3A2086-3473-4AAF-B2C3-1375EF4CE1A2}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -30,7 +30,6 @@ namespace U105_EventProcedures
         private void btnGreen_Click(object sender, EventArgs e)
         {
             txtOne.ForeColor = Color.Green;
-            //txtOne.Font.Bold = false;
             txtTwo.ForeColor = Color.Green;
         }
     }
