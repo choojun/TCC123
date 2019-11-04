@@ -15,6 +15,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U1_ListBoxControl", "U1_Lis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U1_TextBoxControl", "U1_TextBoxControl\U1_TextBoxControl.csproj", "{C041D313-7342-4959-B811-6B34127934DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U1_UPE_StateCapital_Q1", "U1_UPE_StateCapital_Q1\U1_UPE_StateCapital_Q1.csproj", "{D254B1F4-EE7F-4A3B-9066-77C529132647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U1_UPE_StateCapital_Q2", "U1_UPE_StateCapital_Q2\U1_UPE_StateCapital_Q2.csproj", "{1DE5954F-5F29-4A62-A295-796C8BA90312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U1_UPE_WawasanProject_Q3", "U1_UPE_WawasanProject_Q3\U1_UPE_WawasanProject_Q3.csproj", "{FEFC7960-615E-479C-8324-ACD940DA3646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U1_UPE_ButtonClick_Q4", "U1_UPE_ButtonClick_Q4\U1_UPE_ButtonClick_Q4.csproj", "{C0B4CD82-4EB5-4235-8765-CD3FA35BE3D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U1_UPE_ButtonClick_Q5", "U1_UPE_ButtonClick_Q5\U1_UPE_ButtonClick_Q5.csproj", "{BBDD6870-BB02-4DBA-8AD1-0018DEBED986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U1_TextBoxEnable_Q6", "U1_TextBoxEnable_Q6\U1_TextBoxEnable_Q6.csproj", "{56AFD333-7D60-4D7A-B6E0-BFC8BB9BA15B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +57,30 @@ Global
 		{C041D313-7342-4959-B811-6B34127934DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C041D313-7342-4959-B811-6B34127934DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C041D313-7342-4959-B811-6B34127934DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D254B1F4-EE7F-4A3B-9066-77C529132647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D254B1F4-EE7F-4A3B-9066-77C529132647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D254B1F4-EE7F-4A3B-9066-77C529132647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D254B1F4-EE7F-4A3B-9066-77C529132647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DE5954F-5F29-4A62-A295-796C8BA90312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE5954F-5F29-4A62-A295-796C8BA90312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE5954F-5F29-4A62-A295-796C8BA90312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE5954F-5F29-4A62-A295-796C8BA90312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFC7960-615E-479C-8324-ACD940DA3646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFC7960-615E-479C-8324-ACD940DA3646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFC7960-615E-479C-8324-ACD940DA3646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFC7960-615E-479C-8324-ACD940DA3646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B4CD82-4EB5-4235-8765-CD3FA35BE3D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B4CD82-4EB5-4235-8765-CD3FA35BE3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B4CD82-4EB5-4235-8765-CD3FA35BE3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B4CD82-4EB5-4235-8765-CD3FA35BE3D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBDD6870-BB02-4DBA-8AD1-0018DEBED986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBDD6870-BB02-4DBA-8AD1-0018DEBED986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBDD6870-BB02-4DBA-8AD1-0018DEBED986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBDD6870-BB02-4DBA-8AD1-0018DEBED986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56AFD333-7D60-4D7A-B6E0-BFC8BB9BA15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56AFD333-7D60-4D7A-B6E0-BFC8BB9BA15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56AFD333-7D60-4D7A-B6E0-BFC8BB9BA15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56AFD333-7D60-4D7A-B6E0-BFC8BB9BA15B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
