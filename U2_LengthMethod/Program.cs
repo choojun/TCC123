@@ -31,7 +31,7 @@ namespace U2_LengthMethod
             System.Console.WriteLine("The Hello World in lowercase "
                 + stringOne.ToLower());
             // Determines whether a string contains a specific substring
-            Console.WriteLine("firstName contains the letter r?: {0}",
+            Console.WriteLine("stringOne contains the letter r?: {0}",
                 stringOne.Contains("r"));
             System.Console.ReadLine();
         }
