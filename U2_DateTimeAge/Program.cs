@@ -10,6 +10,7 @@ namespace U2_DateTimeAge
     {
         static void Main(string[] args)
         {
+            // Activity 2.10 Question 1
             int year, month, day;
             Console.Write("Enter year of your birthday (in integer): ");
             year = int.Parse(Console.ReadLine());

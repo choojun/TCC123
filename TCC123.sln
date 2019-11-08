@@ -73,6 +73,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U2_ConcatenateKeyboard", "U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U2_DateTimeCompare", "U2_DateTimeCompare\U2_DateTimeCompare.csproj", "{1028A4F4-DC21-4B8E-BD72-469E75BBF8D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U2_DataTypeDefaultValue", "U2_DataTypeDefaultValue\U2_DataTypeDefaultValue.csproj", "{2B7D4D7E-BEAA-42E9-8968-D129A5307956}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U2_ObjectFunctionality", "U2_ObjectFunctionality\U2_ObjectFunctionality.csproj", "{F8A86D9E-9311-4E20-941D-FACCE83B47CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +223,14 @@ Global
 		{1028A4F4-DC21-4B8E-BD72-469E75BBF8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1028A4F4-DC21-4B8E-BD72-469E75BBF8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1028A4F4-DC21-4B8E-BD72-469E75BBF8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B7D4D7E-BEAA-42E9-8968-D129A5307956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B7D4D7E-BEAA-42E9-8968-D129A5307956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B7D4D7E-BEAA-42E9-8968-D129A5307956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B7D4D7E-BEAA-42E9-8968-D129A5307956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8A86D9E-9311-4E20-941D-FACCE83B47CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8A86D9E-9311-4E20-941D-FACCE83B47CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8A86D9E-9311-4E20-941D-FACCE83B47CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8A86D9E-9311-4E20-941D-FACCE83B47CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
