@@ -10,6 +10,8 @@ namespace U2_Circle
     {
         static void Main(string[] args)
         {
+            // Self-test 2.1 Question 3
+
             // declare Integer variable as radius
             int radius;
 

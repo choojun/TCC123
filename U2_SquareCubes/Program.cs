@@ -10,6 +10,8 @@ namespace U2_SquareCubes
     {
         static void Main(string[] args)
         {
+            // Self-test Question 4
+
             //display header for table
             Console.WriteLine("number \t square \t cube");
 

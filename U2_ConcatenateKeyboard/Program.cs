@@ -10,6 +10,7 @@ namespace U2_ConcatenateKeyboard
     {
         static void Main(string[] args)
         {
+            // Self-test 2.1 Question 5
             string stringOne = "The keyboard has ";
             int numberKey = 128;
 
