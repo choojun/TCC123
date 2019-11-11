@@ -10,7 +10,7 @@ namespace U2_DisplayNumber
     {
         static void Main(string[] args)
         {
-            // Activity 2.4 Question 1
+            // Activity 2.3 Question 1
             System.Console.Write("Using one 'Write' Statement: 1 2 3 4");
             System.Console.WriteLine("");
             System.Console.Write("Using four 'Write' Statements: 1 ");

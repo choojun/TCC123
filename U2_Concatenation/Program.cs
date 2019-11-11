@@ -12,7 +12,7 @@ namespace U2_Concatenation
         static void Main(string[] args)
         {
             string stringOne, stringTwo, stringOutput;
-            stringOne = "Welcome";
+            stringOne = "Welcome to";
             stringTwo = " Visual Programming";
             stringOutput = stringOne + stringTwo;
 
