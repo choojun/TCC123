@@ -25,11 +25,11 @@ namespace U2_DecisionStructureIfElse_OddEvenNumber
             }
             if (number % 2 == 0)
             {
-                Console.WriteLine("{0} is an even number", number);
+                Console.WriteLine("{0} is an Even Number", number);
             }
             else
             {
-                Console.WriteLine("{0} is an odd number", number);
+                Console.WriteLine("{0} is an Odd Number", number);
             }
         }
     }

@@ -10,8 +10,9 @@ namespace U2_DecisionStructureSwitch_OddEvent
     {
         static void Main(string[] args)
         {
-            int number = 3;
-
+            Console.WriteLine("Enter your number");
+            int number;
+            int.TryParse(Console.ReadLine(), out number);
             switch (number % 2)
             {
                 case 0:
@@ -21,6 +22,7 @@ namespace U2_DecisionStructureSwitch_OddEvent
                     Console.WriteLine("{0} is an odd number", number);
                     break;
             }
+            Console.ReadLine();
         }
     }
 }
