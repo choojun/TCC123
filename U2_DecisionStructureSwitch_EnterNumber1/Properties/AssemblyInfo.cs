@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("U2_DecisionStructureSwitch_OddEvenNumber")]
+[assembly: AssemblyTitle("U2_DecisionStructureSwitch_EnterNumber1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("U2_DecisionStructureSwitch_OddEvenNumber")]
+[assembly: AssemblyProduct("U2_DecisionStructureSwitch_EnterNumber1")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6938028b-d717-4b94-9c1c-a13c735280e8")]
+[assembly: Guid("5711f750-2ec7-407d-9e90-c42674a30f78")]
 
 // Version information for an assembly consists of the following four values:
 //

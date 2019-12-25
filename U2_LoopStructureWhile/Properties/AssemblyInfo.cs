@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("U2_DecisionStructureConditionalOperator_OddEvent")]
+[assembly: AssemblyTitle("U2_LoopStructureWhile")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("U2_DecisionStructureConditionalOperator_OddEvent")]
+[assembly: AssemblyProduct("U2_LoopStructureWhile")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9761e4c0-69ba-49fa-900b-bb0a3149693f")]
+[assembly: Guid("02ad598f-ea9c-4c71-9218-9b458575cfdf")]
 
 // Version information for an assembly consists of the following four values:
 //

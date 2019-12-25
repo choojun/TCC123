@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace U2_DecisionStructureConditionalOperator_OddEvent
+namespace U2_DecisionStructureConditionalOperator_OddEvenNumber
 {
     class Program
     {
@@ -18,8 +18,9 @@ namespace U2_DecisionStructureConditionalOperator_OddEvent
             // Null Coalescing Operator with (??)
             string name = null;
             // set username = name, if name is not null.
-            // set username = “user”, if name is null.
-            string username = name ?? "user";
+            // set username = "Wawasan", if name is null.
+            string username = name ?? "Wawasan";
+            Console.WriteLine("username is {0}", username);
         }
     }
 }

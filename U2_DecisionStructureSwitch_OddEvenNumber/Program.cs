@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace U2_DecisionStructureSwitch_OddEvent
+namespace U2_DecisionStructureSwitch_OddEvenNumber
 {
     class Program
     {
