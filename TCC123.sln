@@ -155,6 +155,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U2_JumpStructureContinue", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U2_JumpStructureReturn", "U2_JumpStructureReturn\U2_JumpStructureReturn.csproj", "{311426F5-1859-47B2-A781-41642FA271D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U2_Method", "U2_Method\U2_Method.csproj", "{970279FC-01A7-4AA8-8962-DED2E0219176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U2_MethodPassByRef", "U2_MethodPassByRef\U2_MethodPassByRef.csproj", "{03898E0E-9F8D-4337-A9D3-562B520F378D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -465,6 +469,14 @@ Global
 		{311426F5-1859-47B2-A781-41642FA271D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{311426F5-1859-47B2-A781-41642FA271D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{311426F5-1859-47B2-A781-41642FA271D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{970279FC-01A7-4AA8-8962-DED2E0219176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970279FC-01A7-4AA8-8962-DED2E0219176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970279FC-01A7-4AA8-8962-DED2E0219176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970279FC-01A7-4AA8-8962-DED2E0219176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03898E0E-9F8D-4337-A9D3-562B520F378D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03898E0E-9F8D-4337-A9D3-562B520F378D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03898E0E-9F8D-4337-A9D3-562B520F378D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03898E0E-9F8D-4337-A9D3-562B520F378D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
