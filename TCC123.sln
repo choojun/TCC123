@@ -185,6 +185,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U3_FormsApp_ToolTips", "U3_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U3_FormsApp_NumericUpDown", "U3_FormsApp_NumericUpDown\U3_FormsApp_NumericUpDown.csproj", "{FD02FD49-A956-4C87-8D39-1A8AF38CECEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U3_FormsApp_MenuStrip", "U3_FormsApp_MenuStrip\U3_FormsApp_MenuStrip.csproj", "{E168A193-D296-46B0-B66C-070B6CCECE57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U3_FormsApp_DateTimePicker", "U3_FormsApp_DateTimePicker\U3_FormsApp_DateTimePicker.csproj", "{5CF66DF4-431D-4F0D-8FA5-0C20FD327F1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U3_FormsApp_ListBox", "U3_FormsApp_ListBox\U3_FormsApp_ListBox.csproj", "{FE192B78-776B-41A2-9D3D-87107223FA9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U3_FormsApp_CheckListBox", "U3_FormsApp_CheckListBox\U3_FormsApp_CheckListBox.csproj", "{14E979A0-338F-402F-B0ED-86430D19FFC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U3_FormsApp_ComboBox", "U3_FormsApp_ComboBox\U3_FormsApp_ComboBox.csproj", "{AAF62028-7488-4F28-B7FD-28751222E2C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U3_FormsApp_MouseEvent", "U3_FormsApp_MouseEvent\U3_FormsApp_MouseEvent.csproj", "{066F1F79-402E-438E-9E93-B6364BBD021B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U3_FormsApp_Timer", "U3_FormsApp_Timer\U3_FormsApp_Timer.csproj", "{99AD8F93-413A-4D8A-800D-9DA265A85512}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -555,6 +569,34 @@ Global
 		{FD02FD49-A956-4C87-8D39-1A8AF38CECEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD02FD49-A956-4C87-8D39-1A8AF38CECEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD02FD49-A956-4C87-8D39-1A8AF38CECEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E168A193-D296-46B0-B66C-070B6CCECE57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E168A193-D296-46B0-B66C-070B6CCECE57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E168A193-D296-46B0-B66C-070B6CCECE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E168A193-D296-46B0-B66C-070B6CCECE57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF66DF4-431D-4F0D-8FA5-0C20FD327F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF66DF4-431D-4F0D-8FA5-0C20FD327F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF66DF4-431D-4F0D-8FA5-0C20FD327F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF66DF4-431D-4F0D-8FA5-0C20FD327F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE192B78-776B-41A2-9D3D-87107223FA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE192B78-776B-41A2-9D3D-87107223FA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE192B78-776B-41A2-9D3D-87107223FA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE192B78-776B-41A2-9D3D-87107223FA9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E979A0-338F-402F-B0ED-86430D19FFC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E979A0-338F-402F-B0ED-86430D19FFC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E979A0-338F-402F-B0ED-86430D19FFC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E979A0-338F-402F-B0ED-86430D19FFC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF62028-7488-4F28-B7FD-28751222E2C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF62028-7488-4F28-B7FD-28751222E2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF62028-7488-4F28-B7FD-28751222E2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF62028-7488-4F28-B7FD-28751222E2C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{066F1F79-402E-438E-9E93-B6364BBD021B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{066F1F79-402E-438E-9E93-B6364BBD021B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{066F1F79-402E-438E-9E93-B6364BBD021B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{066F1F79-402E-438E-9E93-B6364BBD021B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99AD8F93-413A-4D8A-800D-9DA265A85512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99AD8F93-413A-4D8A-800D-9DA265A85512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99AD8F93-413A-4D8A-800D-9DA265A85512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99AD8F93-413A-4D8A-800D-9DA265A85512}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
