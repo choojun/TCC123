@@ -1,0 +1,36 @@
+﻿<Window x:Class="U3_WpfApp_BasicShapes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:U3_WpfApp_BasicShapes"
+        mc:Ignorable="d"
+        Title="BasicShapes" Height="200" Width="500">
+    <Grid>
+        <Canvas>
+            <!-- Rectangle with fill but no stroke -->
+            <Rectangle Canvas.Left="90" Canvas.Top="30" Width="150" Height="90"
+         Fill="DarkGreen" />
+
+            <!-- Lines defined by starting points and ending points-->
+            <Line X1="90" Y1="30" X2="110" Y2="40" Stroke="Black" />
+            <Line X1="90" Y1="120" X2="110" Y2="130" Stroke="Black" />
+            <Line X1="240" Y1="30" X2="260" Y2="40" Stroke="Black" />
+            <Line X1="240" Y1="120" X2="260" Y2="130" Stroke="Black" />
+
+            <!-- Rectangle with stroke but no fill -->
+            <Rectangle Canvas.Left="110" Canvas.Top="40" Width="150"
+         Height="90" Stroke="Black" />
+
+            <!-- Ellipse with fill and no stroke -->
+            <Ellipse Canvas.Left="280" Canvas.Top="75" Width="100" Height="50" 
+         Fill="LightGreen" />
+            <Line X1="380" Y1="55" X2="380" Y2="100" Stroke="Black" />
+            <Line X1="280" Y1="55" X2="280" Y2="100" Stroke="Black" />
+
+            <!-- Ellipse with stroke and no fill -->
+            <Ellipse Canvas.Left="280" Canvas.Top="30" Width="100" Height="50" 
+         Stroke="Black" />
+        </Canvas>
+    </Grid>
+</Window>

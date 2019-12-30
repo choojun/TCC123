@@ -199,6 +199,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U3_FormsApp_MouseEvent", "U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U3_FormsApp_Timer", "U3_FormsApp_Timer\U3_FormsApp_Timer.csproj", "{99AD8F93-413A-4D8A-800D-9DA265A85512}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U3_WpfApp_BasicShapes", "U3_WpfApp_BasicShapes\U3_WpfApp_BasicShapes.csproj", "{94A2D903-2A3C-464B-AECB-2C24B8225A07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U3_WpfApp_Polygons", "U3_WpfApp_Polygons\U3_WpfApp_Polygons.csproj", "{3BBC9431-20B9-437B-ADBF-5AA69B98DC12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -597,6 +601,14 @@ Global
 		{99AD8F93-413A-4D8A-800D-9DA265A85512}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99AD8F93-413A-4D8A-800D-9DA265A85512}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99AD8F93-413A-4D8A-800D-9DA265A85512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A2D903-2A3C-464B-AECB-2C24B8225A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A2D903-2A3C-464B-AECB-2C24B8225A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A2D903-2A3C-464B-AECB-2C24B8225A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A2D903-2A3C-464B-AECB-2C24B8225A07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BBC9431-20B9-437B-ADBF-5AA69B98DC12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BBC9431-20B9-437B-ADBF-5AA69B98DC12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BBC9431-20B9-437B-ADBF-5AA69B98DC12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BBC9431-20B9-437B-ADBF-5AA69B98DC12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
