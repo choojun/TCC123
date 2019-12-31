@@ -67,6 +67,14 @@ namespace U3_WpfApp_Polygons
         private void drawCanvas_MouseDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
             points.Add(e.GetPosition(drawCanvas)); // add point to collection
+            Console.WriteLine(e.GetPosition(drawCanvas));
+        }
+
+        private void drawCanvas_MouseMove(object sender, MouseEventArgs e)
+        {
+            Point p = Mouse.GetPosition(drawCanvas);
+            Console.WriteLine(p.ToString());
+            
         }
     }
 }

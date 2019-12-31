@@ -1,0 +1,32 @@
+﻿<Window x:Class="U3_WpfApp_Image.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:U3_WpfApp_Image"
+        mc:Ignorable="d"
+        Title="Image" Height="450" Width="800">
+    <Grid>
+        <Canvas Height="457" Width="692">
+            <Image Margin="26,30,0,0" Name="imgImage" Stretch="Fill" Height="180" VerticalAlignment="Top" HorizontalAlignment="Left" Width="240" Source="WOU.jpg" Canvas.Left="287" Canvas.Top="192" />
+            <Button Canvas.Left="206" Canvas.Top="8" Height="23" Name="btnTransform" Width="75" Click="btnTransform_Click">Transform</Button>
+            <Button Canvas.Left="206" Canvas.Top="123" Height="23" Name="btnScale" Width="75" Click="btnScale_Click">Scale</Button>
+            <Button Canvas.Left="206" Canvas.Top="46" Height="23" Name="btnRotate" Width="75" Click="btnRotate_Click">Rotate</Button>
+            <Button Canvas.Left="206" Canvas.Top="84" Height="23" Name="btnSkew" Width="75" Click="btnSkew_Click">Skew</Button>
+            <TextBox Canvas.Left="42" Canvas.Top="8" Height="23" Name="txtTransformXCoordinate" Width="38" />
+            <TextBox Canvas.Left="110" Canvas.Top="8" Height="23" Name="txtTransformYCoordinate" Width="38" />
+            <Label Canvas.Left="8" Canvas.Top="8" Height="27" Name="Label1" Width="28">x:</Label>
+            <Label Canvas.Left="86" Canvas.Top="8" Height="27" Name="Label2" Width="28">y:</Label>
+            <TextBox Canvas.Left="110" Canvas.Top="41" Height="23" Name="txtRoateAngle" Width="38" />
+            <Label Canvas.Left="67" Canvas.Top="41" Height="27" Name="Label3" Width="42">Angle:</Label>
+            <TextBox Canvas.Left="42" Canvas.Top="123" Height="23" Name="txtScaleXCoordiante" Width="38" />
+            <TextBox Canvas.Left="110" Canvas.Top="123" Height="23" Name="txtScaleYCoordiante" Width="38" />
+            <Label Canvas.Left="8" Canvas.Top="123" Height="27" Name="Label4" Width="28">x:</Label>
+            <Label Canvas.Left="86" Canvas.Top="123" Height="27" Name="Label5" Width="28">y:</Label>
+            <TextBox Canvas.Left="42" Canvas.Top="84" Height="23" Name="txtSkewXCoordiante" Width="38" />
+            <TextBox Canvas.Left="110" Canvas.Top="84" Height="23" Name="txtSkewYCoordiante" Width="38" />
+            <Label Canvas.Left="8" Canvas.Top="84" Height="27" Name="Label6" Width="28">x:</Label>
+            <Label Canvas.Left="86" Canvas.Top="84" Height="27" Name="Label7" Width="28">y:</Label>
+        </Canvas>
+    </Grid>
+</Window>
