@@ -62,19 +62,30 @@ namespace U3_WpfApp_Polygons
         private void clearButton_Click(object sender, RoutedEventArgs e)
         {
             points.Clear(); // clear the points from the collection
+            MessageBox.Show("ooo");
         }
 
         private void drawCanvas_MouseDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
             points.Add(e.GetPosition(drawCanvas)); // add point to collection
             Console.WriteLine(e.GetPosition(drawCanvas));
+
+            Point pt = e.GetPosition(this);
+            points.Add(pt);
+            string test =
+            String.Format("You are at ({0},{1}) in window coordinates",
+            pt.X, pt.Y);
+
+            MessageBox.Show(test);
         }
 
         private void drawCanvas_MouseMove(object sender, MouseEventArgs e)
         {
             Point p = Mouse.GetPosition(drawCanvas);
             Console.WriteLine(p.ToString());
-            
+            MessageBox.Show(p.ToString());
+
+
         }
     }
 }

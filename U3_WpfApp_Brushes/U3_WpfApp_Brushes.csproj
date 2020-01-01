@@ -98,7 +98,6 @@
     <Resource Include="WOU.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="nasa.wmv" />
     <Content Include="sample.mp4" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
