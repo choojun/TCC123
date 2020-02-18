@@ -20,7 +20,7 @@ namespace U3_FormsApp_LabelTextBoxButton
         private void btnDisplayPassword_Click(object sender, EventArgs e)
         {
             // Display the text of user input
-            lblDisplayPassword.Text = txtInputPassword.Text;
+            txtDisplayPassword.Text = txtInputPassword.Text;
         }
     }
 }
