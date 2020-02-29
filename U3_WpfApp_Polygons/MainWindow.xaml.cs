@@ -62,7 +62,7 @@ namespace U3_WpfApp_Polygons
         private void clearButton_Click(object sender, RoutedEventArgs e)
         {
             points.Clear(); // clear the points from the collection
-            MessageBox.Show("ooo");
+            //MessageBox.Show("The drawing has been cleared");
         }
 
         private void drawCanvas_MouseDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
@@ -76,16 +76,14 @@ namespace U3_WpfApp_Polygons
             String.Format("You are at ({0},{1}) in window coordinates",
             pt.X, pt.Y);
 
-            MessageBox.Show(test);
+            //MessageBox.Show(Your mouse is down now);
         }
 
         private void drawCanvas_MouseMove(object sender, MouseEventArgs e)
         {
             Point p = Mouse.GetPosition(drawCanvas);
             Console.WriteLine(p.ToString());
-            MessageBox.Show(p.ToString());
-
-
+            //MessageBox.Show(p.ToString());
         }
     }
 }

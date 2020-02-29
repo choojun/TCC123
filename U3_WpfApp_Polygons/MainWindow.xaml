@@ -14,11 +14,12 @@
 
         <!-- Canvas contains two polygons and a polyline -->
         <!-- Only the shape selected by the radio button is visible -->
-        <Canvas Name="drawCanvas" Grid.Column="0" Background="White">
+        <Canvas Name="drawCanvas" Grid.Column="0" Background="White" MouseDown="drawCanvas_MouseDown" 
+                MouseMove="drawCanvas_MouseMove">
             <Polyline Name="polyLine" Stroke="Black" 
             Visibility="Collapsed" />
             <Polygon Name="polygon" Stroke="Black" Visibility="Collapsed" />
-            <Polygon Name="filledPolygon" Fill="DarkBlue"
+            <Polygon Name="filledPolygon" Fill="GreenYellow"
             Visibility="Collapsed" />
             <!-- Filled -->
         </Canvas>

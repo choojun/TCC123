@@ -63,7 +63,7 @@
             <Ellipse.Fill>
                 <VisualBrush>
                     <VisualBrush.Visual>
-                        <MediaElement Source="sample.mp4" />
+                        <MediaElement Source="sample.mp4"  />
                     </VisualBrush.Visual>
                 </VisualBrush>
             </Ellipse.Fill>
