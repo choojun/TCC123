@@ -61,11 +61,29 @@
         <!-- Ellipse with a MediaElement as a VisualBrush -->
         <Ellipse Grid.Row="2" Grid.Column="1" Height="100" Width="300">
             <Ellipse.Fill>
-                <VisualBrush>
+
+                
+                            <VisualBrush>
                     <VisualBrush.Visual>
-                        <MediaElement Source="sample.mp4"  />
+                        <MediaElement>
+                            <MediaElement.Triggers>
+                                <EventTrigger RoutedEvent="MediaElement.Loaded">
+                                    <EventTrigger.Actions>
+                                        <BeginStoryboard>
+                                            <Storyboard >
+                                                <MediaTimeline Source="sample.mpg" />
+                                                
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </EventTrigger.Actions>
+                                </EventTrigger>
+                            </MediaElement.Triggers>
+                        </MediaElement>
                     </VisualBrush.Visual>
                 </VisualBrush>
+
+                     
+
             </Ellipse.Fill>
         </Ellipse>
     </Grid>
