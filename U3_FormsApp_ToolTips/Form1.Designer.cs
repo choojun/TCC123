@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.lblVB = new System.Windows.Forms.Label();
             this.lblCSharp = new System.Windows.Forms.Label();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.lblToolTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // lblVB
@@ -42,7 +42,7 @@
             this.lblVB.Size = new System.Drawing.Size(64, 13);
             this.lblVB.TabIndex = 0;
             this.lblVB.Text = "Visual Basic";
-            this.toolTip1.SetToolTip(this.lblVB, "Visual Basic");
+            this.lblToolTip.SetToolTip(this.lblVB, "Visual Basic");
             this.lblVB.Click += new System.EventHandler(this.lblVB_Click);
             // 
             // lblCSharp
@@ -53,7 +53,7 @@
             this.lblCSharp.Size = new System.Drawing.Size(21, 13);
             this.lblCSharp.TabIndex = 1;
             this.lblCSharp.Text = "C#";
-            this.toolTip1.SetToolTip(this.lblCSharp, "C#");
+            this.lblToolTip.SetToolTip(this.lblCSharp, "C#");
             // 
             // frmToolTip
             // 
@@ -73,7 +73,7 @@
 
         private System.Windows.Forms.Label lblVB;
         private System.Windows.Forms.Label lblCSharp;
-        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ToolTip lblToolTip;
     }
 }
 

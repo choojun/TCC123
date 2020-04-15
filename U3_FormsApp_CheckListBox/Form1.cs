@@ -17,19 +17,19 @@ namespace U3_FormsApp_CheckListBox
             InitializeComponent();
         }
 
-        private void chkLstSubject1_SelectedIndexChanged(object sender, EventArgs e)
+        private void chkLstProgramming_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // Remove all items from chkLstSubject2
-            lstSubject.Items.Clear();
+            // Remove all items
+            lstProgramming.Items.Clear();
 
-            // Add selected items from chkLstSubject1 to chkLstSubject2
-            foreach (string itemChecked in chkLstSubject1.CheckedItems)
+            // Add selected items from CheckedListBox to ListBox
+            foreach (string itemChecked in chkLstProgramming.CheckedItems)
             {
-                if (!lstSubject.Items.Contains(itemChecked))
-                    lstSubject.Items.Add(itemChecked);
+                if (!lstProgramming.Items.Contains(itemChecked))
+                    lstProgramming.Items.Add(itemChecked);
             }
 
-            lblMessage.Text = "Added items: " + chkLstSubject1.CheckedItems.Count;
+            lblMessage.Text = "Added items: " + chkLstProgramming.CheckedItems.Count;
         }
     }
 }

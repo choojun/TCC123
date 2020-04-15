@@ -30,9 +30,9 @@
         {
             this.picWou = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuFile = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuFileExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuPicture = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuPictureVisible = new System.Windows.Forms.ToolStripMenuItem();
             this.sizeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuPictureSizeSmall = new System.Windows.Forms.ToolStripMenuItem();
@@ -54,46 +54,46 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem,
-            this.pictureToolStripMenuItem});
+            this.mnuFile,
+            this.mnuPicture});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(256, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // fileToolStripMenuItem
+            // mnuFile
             // 
-            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.exitToolStripMenuItem});
-            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "File";
+            this.mnuFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuFileExit});
+            this.mnuFile.Name = "mnuFile";
+            this.mnuFile.Size = new System.Drawing.Size(37, 20);
+            this.mnuFile.Text = "File";
             // 
-            // exitToolStripMenuItem
+            // mnuFileExit
             // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            this.mnuFileExit.Name = "mnuFileExit";
+            this.mnuFileExit.Size = new System.Drawing.Size(180, 22);
+            this.mnuFileExit.Text = "Exit";
+            this.mnuFileExit.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
-            // pictureToolStripMenuItem
+            // mnuPicture
             // 
-            this.pictureToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuPicture.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuPictureVisible,
             this.sizeToolStripMenuItem});
-            this.pictureToolStripMenuItem.Name = "pictureToolStripMenuItem";
-            this.pictureToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
-            this.pictureToolStripMenuItem.Text = "Picture";
+            this.mnuPicture.Name = "mnuPicture";
+            this.mnuPicture.Size = new System.Drawing.Size(56, 20);
+            this.mnuPicture.Text = "Picture";
             // 
             // mnuPictureVisible
             // 
             this.mnuPictureVisible.Checked = true;
             this.mnuPictureVisible.CheckState = System.Windows.Forms.CheckState.Checked;
             this.mnuPictureVisible.Name = "mnuPictureVisible";
-            this.mnuPictureVisible.Size = new System.Drawing.Size(108, 22);
+            this.mnuPictureVisible.Size = new System.Drawing.Size(180, 22);
             this.mnuPictureVisible.Text = "Visible";
-            this.mnuPictureVisible.Click += new System.EventHandler(this.visibleToolStripMenuItem_Click);
+            this.mnuPictureVisible.Click += new System.EventHandler(this.mnuPictureVisible_Click);
             // 
             // sizeToolStripMenuItem
             // 
@@ -101,7 +101,7 @@
             this.mnuPictureSizeSmall,
             this.mnuPictureSizeLarge});
             this.sizeToolStripMenuItem.Name = "sizeToolStripMenuItem";
-            this.sizeToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
+            this.sizeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sizeToolStripMenuItem.Text = "Size";
             // 
             // mnuPictureSizeSmall
@@ -118,7 +118,7 @@
             this.mnuPictureSizeLarge.Name = "mnuPictureSizeLarge";
             this.mnuPictureSizeLarge.Size = new System.Drawing.Size(103, 22);
             this.mnuPictureSizeLarge.Text = "Large";
-            this.mnuPictureSizeLarge.Click += new System.EventHandler(this.largeToolStripMenuItem_Click);
+            this.mnuPictureSizeLarge.Click += new System.EventHandler(this.mnuPictureSizeLarge_Click);
             // 
             // frmMenuStrip
             // 
@@ -143,9 +143,9 @@
 
         private System.Windows.Forms.PictureBox picWou;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pictureToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mnuFile;
+        private System.Windows.Forms.ToolStripMenuItem mnuFileExit;
+        private System.Windows.Forms.ToolStripMenuItem mnuPicture;
         private System.Windows.Forms.ToolStripMenuItem mnuPictureVisible;
         private System.Windows.Forms.ToolStripMenuItem sizeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mnuPictureSizeSmall;

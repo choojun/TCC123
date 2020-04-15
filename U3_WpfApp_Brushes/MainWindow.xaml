@@ -19,7 +19,7 @@
         </Grid.ColumnDefinitions>
 
         <!-- TextBlock with a SolidColorBrush -->
-        <TextBlock FontSize="100" FontWeight="999">
+        <TextBlock FontSize="100" FontWeight="UltraBold" Background="LightGray">
             <TextBlock.Foreground>
                 <SolidColorBrush Color="#5F2CAE" />
             </TextBlock.Foreground>
@@ -30,7 +30,7 @@
         <Ellipse Grid.Column="1" Height="100" Width="300" Fill="#5F2CAE" />
 
         <!-- TextBlock with an ImageBrush -->
-        <TextBlock Grid.Row="1" FontSize="100" FontWeight="999">
+        <TextBlock Grid.Row="1" FontSize="100" FontWeight="UltraBold" Background="Black">
             <TextBlock.Foreground>
                 <!-- Flower image as an ImageBrush -->
                 <ImageBrush ImageSource="WOU.jpg" />
@@ -46,7 +46,7 @@
         </Ellipse>
 
         <!-- TextBlock with a MediaElement as a VisualBrush -->
-        <TextBlock Grid.Row="2" FontSize="100" FontWeight="999">
+        <TextBlock Grid.Row="2" FontSize="100" FontWeight="UltraBold" Background="LightGray">
             <TextBlock.Foreground>
                 <!-- VisualBrush with an embedded MediaElement-->
                 <VisualBrush>
@@ -63,7 +63,7 @@
             <Ellipse.Fill>
 
                 
-                            <VisualBrush>
+                 <VisualBrush>
                     <VisualBrush.Visual>
                         <MediaElement>
                             <MediaElement.Triggers>

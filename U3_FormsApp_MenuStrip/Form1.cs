@@ -17,7 +17,7 @@ namespace U3_FormsApp_MenuStrip
             InitializeComponent();
         }
 
-        private void largeToolStripMenuItem_Click(object sender, EventArgs e)
+        private void mnuPictureSizeLarge_Click(object sender, EventArgs e)
         {
             // Set the values for a Large Picture
             picWou.Height = 157;
@@ -35,10 +35,10 @@ namespace U3_FormsApp_MenuStrip
             mnuPictureSizeSmall.Checked = true;
         }
 
-        private void visibleToolStripMenuItem_Click(object sender, EventArgs e)
+        private void mnuPictureVisible_Click(object sender, EventArgs e)
         {
             // change the visible property of the picture
-            // and the state of the checkmark
+            // and the state of the check mark
             picWou.Visible = ! picWou.Visible;
             mnuPictureVisible.Checked = !mnuPictureVisible.Checked;
         }

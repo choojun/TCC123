@@ -28,15 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.chkLstSubject1 = new System.Windows.Forms.CheckedListBox();
+            this.chkLstProgramming = new System.Windows.Forms.CheckedListBox();
             this.lblMessage = new System.Windows.Forms.Label();
-            this.lstSubject = new System.Windows.Forms.ListBox();
+            this.lstProgramming = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // chkLstSubject1
+            // chkLstProgramming
             // 
-            this.chkLstSubject1.FormattingEnabled = true;
-            this.chkLstSubject1.Items.AddRange(new object[] {
+            this.chkLstProgramming.FormattingEnabled = true;
+            this.chkLstProgramming.Items.AddRange(new object[] {
             "C#",
             "Visual Basic",
             "Java",
@@ -44,11 +44,11 @@
             "Python",
             "Perl",
             "Ruby"});
-            this.chkLstSubject1.Location = new System.Drawing.Point(12, 12);
-            this.chkLstSubject1.Name = "chkLstSubject1";
-            this.chkLstSubject1.Size = new System.Drawing.Size(107, 94);
-            this.chkLstSubject1.TabIndex = 0;
-            this.chkLstSubject1.SelectedIndexChanged += new System.EventHandler(this.chkLstSubject1_SelectedIndexChanged);
+            this.chkLstProgramming.Location = new System.Drawing.Point(12, 12);
+            this.chkLstProgramming.Name = "chkLstProgramming";
+            this.chkLstProgramming.Size = new System.Drawing.Size(107, 94);
+            this.chkLstProgramming.TabIndex = 0;
+            this.chkLstProgramming.SelectedIndexChanged += new System.EventHandler(this.chkLstProgramming_SelectedIndexChanged);
             // 
             // lblMessage
             // 
@@ -58,22 +58,22 @@
             this.lblMessage.Size = new System.Drawing.Size(0, 13);
             this.lblMessage.TabIndex = 2;
             // 
-            // lstSubject
+            // lstProgramming
             // 
-            this.lstSubject.FormattingEnabled = true;
-            this.lstSubject.Location = new System.Drawing.Point(144, 11);
-            this.lstSubject.Name = "lstSubject";
-            this.lstSubject.Size = new System.Drawing.Size(100, 95);
-            this.lstSubject.TabIndex = 3;
+            this.lstProgramming.FormattingEnabled = true;
+            this.lstProgramming.Location = new System.Drawing.Point(144, 11);
+            this.lstProgramming.Name = "lstProgramming";
+            this.lstProgramming.Size = new System.Drawing.Size(100, 95);
+            this.lstProgramming.TabIndex = 3;
             // 
             // fromCheckListBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(256, 205);
-            this.Controls.Add(this.lstSubject);
+            this.Controls.Add(this.lstProgramming);
             this.Controls.Add(this.lblMessage);
-            this.Controls.Add(this.chkLstSubject1);
+            this.Controls.Add(this.chkLstProgramming);
             this.Name = "fromCheckListBox";
             this.Text = "CheckListBox";
             this.ResumeLayout(false);
@@ -83,9 +83,9 @@
 
         #endregion
 
-        private System.Windows.Forms.CheckedListBox chkLstSubject1;
+        private System.Windows.Forms.CheckedListBox chkLstProgramming;
         private System.Windows.Forms.Label lblMessage;
-        private System.Windows.Forms.ListBox lstSubject;
+        private System.Windows.Forms.ListBox lstProgramming;
     }
 }
 
