@@ -32,5 +32,11 @@ namespace U105_EventProcedures
             txtOne.ForeColor = Color.Green;
             txtTwo.ForeColor = Color.Green;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtOne.ForeColor = Color.Blue;
+            txtTwo.ForeColor = Color.Red;
+        }
     }
 }
